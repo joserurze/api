@@ -15,6 +15,6 @@ public class SecurityConfiguration {
     return http.csrf(csrf -> csrf.disable())
         .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .build();
-  }
+  }git
 
 }
