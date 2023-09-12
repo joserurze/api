@@ -5,4 +5,5 @@ create table usuarios(
     senha varchar(255) not null,
 
     primary key(id)
+
 );
